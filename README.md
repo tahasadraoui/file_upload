@@ -1,6 +1,7 @@
 ## Intro
 
-This is an example of file upload with Angular, TypeScript, Bootstrap
+This is an example of a Web Application, for candidates to apply for positions.
+Technos: Angular, TypeScript, Bootstrap
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.
 
 ## Getting started
