@@ -1,14 +1,19 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
-import { UploadDashboardComponent } from './components/upload-dashboard/upload-dashboard.component';
+// App
+import { AppRoutingModule } from '@app/app-routing.module';
+import { AppComponent } from '@app/app.component';
+import { 
+  UploadDashboardComponent,
+  HomeComponent 
+} from '@app/components';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UploadDashboardComponent
+    UploadDashboardComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
